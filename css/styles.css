@@ -30,3 +30,34 @@ h2{
     padding: 10px;
     font-weight: 700;
 }
+@media only screen and (max-width: 600px) {
+  nav img{
+      width: 80%;
+  }
+}
+@media only screen and (min-width: 600px) {
+    nav img{
+        width: 70%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .enav img{
+        width: 60%;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    nav img{
+        width: 60%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    nav img{
+        width: 50%;
+    }
+  }
